@@ -1,0 +1,87 @@
+[
+  {
+    "description": "             Como usuário\n             Quero poder acessar os detalhes do plano que desejo comprar\n             Para que possa ver o que o plano me oferece e comparar os planos entre si",
+    "elements": [
+      {
+        "id": "visualizar-detalhes-do-plano;visualizar-os-detalhes-de-um-plano",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Visualizar os detalhes de um plano",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "name": "que estou na tela inicial de pesquisa de planos",
+            "result": {
+              "status": "passed",
+              "duration": 1274156
+            },
+            "line": 9,
+            "match": {
+              "location": "/Users/jvitor/Documents/Code/cucumber-protractor-poc/feature/step_definition/details.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "name": "eu clico no botão 'saiba mais' de um dos planos disponíveis",
+            "result": {
+              "status": "passed",
+              "duration": 758383
+            },
+            "line": 10,
+            "match": {
+              "location": "/Users/jvitor/Documents/Code/cucumber-protractor-poc/feature/step_definition/details.js:25"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "name": "sou direcionado para uma tela contendo os detalhes do plano que escolhi",
+            "result": {
+              "status": "passed",
+              "duration": 2401439269
+            },
+            "line": 11,
+            "match": {
+              "location": "/Users/jvitor/Documents/Code/cucumber-protractor-poc/feature/step_definition/details.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "name": "as opções de assinar o plano ou ver os demais planos disponíveis",
+            "result": {
+              "status": "passed",
+              "duration": 450867
+            },
+            "line": 12,
+            "match": {
+              "location": "/Users/jvitor/Documents/Code/cucumber-protractor-poc/feature/step_definition/details.js:40"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "name": "os benefícios disponíveis para o plano selecionado",
+            "result": {
+              "status": "pending"
+            },
+            "line": 13,
+            "match": {
+              "location": "/Users/jvitor/Documents/Code/cucumber-protractor-poc/feature/step_definition/details.js:46"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "visualizar-detalhes-do-plano",
+    "keyword": "Funcionalidade",
+    "line": 3,
+    "name": "Visualizar detalhes do plano",
+    "tags": [],
+    "uri": "/Users/jvitor/Documents/Code/cucumber-protractor-poc/feature/details.feature"
+  }
+]
